@@ -1,0 +1,37 @@
+#table {
+    border-collapse: collapse;
+    width: 50px;
+    display: none;
+    table-layout: fixed;
+}
+
+#table td {
+    border: 1px solid #000;
+    width: 60px;
+    text-align: center;
+    height: 60px;
+}
+
+#cell1,
+#cell2,
+#cell3 {
+    border-left: none !important;
+}
+
+#cell3,
+#cell6,
+#cell9 {
+    border-top: none !important;
+}
+
+#cell1,
+#cell4,
+#cell7 {
+    border-bottom: none !important;
+}
+
+#cell7,
+#cell8,
+#cell9 {
+    border-right: none !important;
+}
